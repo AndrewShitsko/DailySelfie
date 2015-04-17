@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daily Selfie</string>
+    <string name="settings">Настройки</string>
+    <string name="showPhoto">Просмотр фото</string>
+    <string name="take_picture">Сделать селфи</string>
+    <string name="settings_notification_category_title">Настройки уведомлений</string>
+    <string name="settings_notification_title">Оповещения</string>
+    <string name="settings_frequency_reminder_title">Частота</string>
+    <string name="settings_frequency_reminder_summary">Выберите частоту напоминания</string>
+    <string name="settings_vibrate_title">Вибрация</string>
+    <string name="settings_ringtone_title">Звук</string>
+    <string name="settings_ringtone_summary">По умолчанию</string>
+</resources>

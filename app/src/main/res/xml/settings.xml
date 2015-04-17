@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_notification_category_title">
+        <CheckBoxPreference android:key="notification_pref"
+                            android:title="@string/settings_notification_title"
+                            android:checked="true"/>
+        <ListPreference android:key="frequency_reminder_pref"
+                        android:title="@string/settings_frequency_reminder_title"
+                        android:selectable="true"
+                        android:entries="@array/frequencyReminder"
+                        android:entryValues="@array/frequencyReminderValues"
+                        android:enabled="false" />
+        <CheckBoxPreference android:key="vibrate_pref"
+                            android:title="@string/settings_vibrate_title"
+                            android:checked="false"
+                            android:enabled="false" />
+        <RingtonePreference android:key="ringtone_pref"
+                            android:title="@string/settings_ringtone_title"
+                            android:summary="@string/settings_ringtone_summary"
+                            android:ringtoneType="notification"
+                            android:showDefault="true"
+                            android:showSilent="true"
+                            android:enabled="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
